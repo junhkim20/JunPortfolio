@@ -102,5 +102,6 @@ body {
 }
 
 #aboutbg img {
+	pointer-events: none;
 	max-width: 70vw; max-height: 80vh
 }
