@@ -41,7 +41,7 @@ body {
 	align-items: center;
 	list-style: none;
 	font-family: 'Esteban', serif;
-	font-size: calc(9px + 1vw);
+	font-size: calc(2vh + 1vw);
 }
 
 .navigation li a {
@@ -117,7 +117,7 @@ body {
 	max-width: 70vw; max-height: 80vh
 }
 
-.fade-in-image { animation: fadeIn 3s; }
+.fade-in-image { animation: fadeIn 5s; }
 
 @keyframes fadeIn {
 	0% { opacity: 0; }
