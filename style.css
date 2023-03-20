@@ -95,8 +95,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 8vw;
-	padding-right: 8vw;
+	padding-left: 3vw;
 }
 
 .aboutme {
@@ -137,3 +136,12 @@ body {
     0% { transform: translateY(0); }
     100% { transform: translateY(-5vh); }
 }
+/*
+#workbg {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	padding-top: 200vh;
+	width: 100vw;
+	height: 200vh;
+}*/
