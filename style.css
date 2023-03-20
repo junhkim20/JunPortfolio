@@ -18,14 +18,25 @@ body {
 	display: flex;
 	width: 100%;
 	padding-top: 7vh;
-	justify-content: space-between;
+	justify-content: flex-end;
 	flex-wrap: wrap;
+}
+
+.fixed{
+	display: flex;
+	position: fixed;
+	top: 7vh;
+	left: 0;
+	right: 0;
 }
 
 
 .navigation ul {
 	display: flex;
+	position: relative;
+	z-index: 1;
 	padding-right: 5vw;
+	max-width: 100vw;
 	gap: 3vw;
 	align-items: center;
 	list-style: none;
@@ -56,7 +67,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	font-size: 6vw;
-	padding-left: 5vw;
+	padding-right: 28vw;
 	padding-bottom: 22vh;
 }
 
@@ -97,7 +108,7 @@ body {
 .imgformat {
 	display: flex;
 	justify-content: flex-end;
-	padding-left: 10vw;
+	padding-left: 15vw;
 	align-items: center;
 }
 
