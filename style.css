@@ -138,18 +138,28 @@ body {
     100% { transform: translateY(-5vh); }
 }
 
-#workbg {
+#musicbg {
 	display: flex;
 	position: relative;
 	position: absolute;
-	background-color: #D1B7A1;
+	background-color: #FFF8E7;
+/*	background-color: #D1B7A1;*/
 	width: 100vw;
-	height: 200vh;
+	height: 100vh;
+}
+
+#musicbg h1 {
+	font-family: 'Esteban', serif;
+	font-size: 2vw;
+	color: #AB6E58;
+	padding-top: 40vh;
+	padding-left: 3vw;
+	width: 30vw;
 }
 
 /* TIMELINE CSS */
 
-.timeline {
+/*.timeline {
 	background: #D1B7A1;
 	margin-top: 5vh;
 	margin-left: 10vw;
@@ -162,7 +172,6 @@ body {
 	border-radius: 2vw;
 }
 
-/* Card container */
 .card {
 	font-family: 'Esteban', serif;;
 	position: relative;
@@ -198,3 +207,4 @@ body {
 	border: 3px solid #A18167;
 }
 
+*/
