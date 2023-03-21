@@ -12,6 +12,7 @@ body {
 	display: flex;
   	padding: 0px;
   	margin: 0px;
+  	background: #D1B7A1;
 }
 
 .container {
@@ -63,7 +64,7 @@ body {
 	height: 0;
 }
 
-.title {
+.titlehello {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	font-size: 6vw;
@@ -86,7 +87,7 @@ body {
 	display: flex;
 	justify-content: center;
 	background-color: #FFF3E0;
-	padding-top: 100vh;
+	margin-top: 100vh;
 	width: 100vw;
 	height: 100vh;
 }
@@ -136,12 +137,64 @@ body {
     0% { transform: translateY(0); }
     100% { transform: translateY(-5vh); }
 }
-/*
+
 #workbg {
 	display: flex;
-	justify-content: center;
+	position: relative;
 	position: absolute;
-	padding-top: 200vh;
+	background-color: #D1B7A1;
 	width: 100vw;
 	height: 200vh;
-}*/
+}
+
+/* TIMELINE CSS */
+
+.timeline {
+	background: #D1B7A1;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	padding-top: 5vh;
+	padding-left: 10vw;
+}
+
+.outer {
+	border-left: 1vw solid #38220f;
+	border-radius: 2vw;
+}
+
+/* Card container */
+.card {
+	font-family: 'Esteban', serif;;
+	position: relative;
+	margin: 0 0 20px 20px;
+	padding: 10px;
+	background: #E9D3C0;
+	color: #FAFAFA;
+	border-radius: 20px;
+	max-width: 60vw;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5vw;
+}
+
+.title {
+	color: #A18167;
+	position: relative;
+	font-size: 1.8vw;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.title::before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 30px;
+	left: -38px;
+	border: 3px solid #A18167;
+}
+
