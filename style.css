@@ -35,8 +35,9 @@ body {
 
 .navigation ul {
 	display: flex;
-	position: relative;
+	position: fixed;
 	z-index: 99;
+	padding-left: 70vw;
 	padding-right: 5vw;
 	max-width: 100vw;
 	gap: 3vw;
@@ -80,7 +81,7 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-image: url(background.gif); 
+	background-image: url(Images/background.gif); 
 	background-size: cover;
 }
 
@@ -141,21 +142,24 @@ body {
     100% { transform: translateY(-5vh); }
 }
 
-#musicbg {
+.musicbg {
 	display: flex;
+	flex-direction: column;
 	position: relative;
+	align-items: center;
 	background-color: #FFF3E0;
 	width: 100vw;
 	height: 100vh;
 }
 
-#musicbg h1 {
+.musicbg h1 {
 	font-family: 'Esteban', serif;
 	font-size: 2vw;
 	color: #AB6E58;
-	padding-top: 40vh;
+	padding-top: 18vh;
 	padding-left: 3vw;
-	width: 30vw;
+	width: 100vw;
+	text-align: center;
 }
 
 #worksbg {
@@ -170,7 +174,7 @@ body {
 /* GRID SYSTEM */
 /* Credit: https://codepen.io/flyingcar/pen/jmvLqG */
 .row {
-	padding-left: 17vw;
+	padding-left: 15vw;
 	margin-right: 15vw;
 }
 
@@ -259,25 +263,25 @@ body {
 }
 
 .box-01 .inner {
-	background-image: url(LogoCover.png);
+	background-image: url(Images/LogoCover.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-02 .inner {
-	background-image: url(AmazonCover.png);
+	background-image: url(Images/AmazonCover.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-03 .inner {
-	background-image: url(CTCover.png);
+	background-image: url(Images/CTCover.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .box-04 .inner {
-	background-image: url(CafeCover.jpg);
+	background-image: url(Images/CafeCover.jpg);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
