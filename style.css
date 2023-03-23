@@ -37,9 +37,6 @@ body {
 	position: relative;
 	justify-content: right;
 	width: calc(77vw - 2vh);
-/*	padding-left: 60vw;*/
-/*	max-width: 80vw;*/
-/*	padding-right: 5vw;*/
 	gap: 1.5vw;
 	list-style: none;
 	font-family: 'Esteban', serif;
@@ -155,7 +152,7 @@ body {
 	font-family: 'Esteban', serif;
 	font-size: 2vw;
 	color: #AB6E58;
-	padding-top: 18vh;
+	padding-top: 0.5vh;
 	padding-left: 3vw;
 	width: 97vw;
 	text-align: center;
