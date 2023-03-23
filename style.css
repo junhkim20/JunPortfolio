@@ -27,21 +27,20 @@ body {
 .fixed{
 	display: flex;
 	position: fixed;
+	z-index: 99;
 	top: 7vh;
-	left: 0;
-	right: 0;
 }
 
 
 .navigation ul {
 	display: flex;
-	position: fixed;
-	z-index: 99;
-	padding-left: 70vw;
-	padding-right: 5vw;
-	max-width: 100vw;
-	gap: 3vw;
-	align-items: center;
+	position: relative;
+	justify-content: right;
+	width: calc(77vw - 2vh);
+/*	padding-left: 60vw;*/
+/*	max-width: 80vw;*/
+/*	padding-right: 5vw;*/
+	gap: 1.5vw;
 	list-style: none;
 	font-family: 'Esteban', serif;
 	font-size: calc(2vh + 1vw);
@@ -158,7 +157,7 @@ body {
 	color: #AB6E58;
 	padding-top: 18vh;
 	padding-left: 3vw;
-	width: 100vw;
+	width: 97vw;
 	text-align: center;
 }
 
