@@ -4,6 +4,7 @@
 font-family: 'Esteban', serif;
 font-family: 'Montserrat', sans-serif;
 */
+
 html { 
 	scroll-behavior: smooth
 }
@@ -12,7 +13,7 @@ body {
 	display: flex;
   	padding: 0px;
   	margin: 0px;
-  	background: #D1B7A1;
+  	background: #F9EED9;
 }
 
 .container {
@@ -35,7 +36,7 @@ body {
 .navigation ul {
 	display: flex;
 	position: relative;
-	z-index: 1;
+	z-index: 99;
 	padding-right: 5vw;
 	max-width: 100vw;
 	gap: 3vw;
@@ -86,10 +87,11 @@ body {
 #aboutbg {
 	display: flex;
 	justify-content: center;
-	background-color: #FFF3E0;
+	background-color: #FFF8E7;
 	margin-top: 100vh;
 	width: 100vw;
 	height: 100vh;
+	position: relative;
 }
 
 .textformat {
@@ -142,9 +144,7 @@ body {
 #musicbg {
 	display: flex;
 	position: relative;
-	position: absolute;
-	background-color: #FFF8E7;
-/*	background-color: #D1B7A1;*/
+	background-color: #FFF3E0;
 	width: 100vw;
 	height: 100vh;
 }
@@ -156,4 +156,129 @@ body {
 	padding-top: 40vh;
 	padding-left: 3vw;
 	width: 30vw;
+}
+
+#worksbg {
+	display: flex;
+	position: absolute;
+	background-color: #F9EED9;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/* GRID SYSTEM */
+/* Credit: https://codepen.io/flyingcar/pen/jmvLqG */
+.row {
+	padding-left: 17vw;
+	margin-right: 15vw;
+}
+
+.container_grid {
+	display: flex;
+	width: 100%;
+	padding-top: 1vh;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.test_box {
+	padding: 0;
+}
+
+.test_box .inner {
+	background: #333;
+	display: block;
+	margin: 1vw;
+	overflow: hidden;
+}
+
+.test_box .inner .test_click {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	mix-blend-mode: normal;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.test_box .inner .test_click:hover {
+	background-color: #AB6E58; 
+	mix-blend-mode: light;
+}
+
+.flex_this {
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	display: inherit;
+	flex-wrap: inherit;
+	height: auto;
+	margin: 0;
+	padding: 10px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	width: 100%;
+
+}
+
+.test_box .inner .test_click:hover .flex_this {
+	margin-top: -5px;
+}
+
+.test_title {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 20px;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.test_link {
+	border: 2px solid #fff;
+	display: inline-block;
+	font-size: .8em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	margin: 0 auto;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-family: 'Esteban', serif;
+}
+
+.box-01 .inner {
+	background-image: url(LogoCover.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-02 .inner {
+	background-image: url(AmazonCover.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-03 .inner {
+	background-image: url(CTCover.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-04 .inner {
+	background-image: url(CafeCover.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
