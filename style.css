@@ -102,7 +102,7 @@ body {
 .aboutme {
 	font-family: 'Esteban', serif;
 	font-size: 2vw;
-	color: #AB6E58;
+	color: #CFA180;
 }
 
 .imgformat {
@@ -144,7 +144,7 @@ body {
 .musicbg h1 {
 	font-family: 'Esteban', serif;
 	font-size: 2vw;
-	color: #AB6E58;
+	color: #CFA180;
 	padding-top: 0.5vh;
 	padding-left: 3vw;
 	width: 97vw;
@@ -208,7 +208,7 @@ body {
 }
 
 .test_box .inner .test_click:hover {
-	background-color: #AB6E58; 
+	background-color: #CFA180; 
 	mix-blend-mode: light;
 }
 
