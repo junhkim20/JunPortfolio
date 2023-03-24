@@ -103,3 +103,13 @@ body {
 	color: #DEAD8A;
 	font-size: 1.8vw;
 }
+
+.fronth2 {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	padding-left: 3vw;*/
+	font-family: 'Esteban', serif;
+	color: #DEAD8A;
+	font-size: 1.8vw;
