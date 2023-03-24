@@ -159,6 +159,14 @@ body {
 	height: 100vh;
 }
 
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-left: 2vw;
+	font-family: 'Esteban', serif;
+	color: #CFA180;
+}
 
 /* GRID SYSTEM */
 /* Credit: https://codepen.io/flyingcar/pen/jmvLqG */
