@@ -52,6 +52,13 @@ body {
 	position: relative;
 	flex-wrap: wrap;
 }
+.container1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+}
 
 .break {
 	flex-basis: 100%;
@@ -84,4 +91,15 @@ body {
 	padding-bottom: 2vh;
 	width: 70%;
 	padding-left: 17vw;
+}
+
+.vidh2 {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 5vw;
+	font-family: 'Esteban', serif;
+	color: #DEAD8A;
+	font-size: 1.8vw;
 }
