@@ -95,8 +95,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 3vw;
-	width: 42vw;
+	width: 35vw;
 }
 
 .aboutme {
@@ -108,7 +107,7 @@ body {
 .imgformat {
 	display: flex;
 	justify-content: flex-end;
-	padding-left: 15vw;
+	padding-right: 10vw;
 	align-items: center;
 }
 
