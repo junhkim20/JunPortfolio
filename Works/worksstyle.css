@@ -94,11 +94,11 @@ body {
 }
 
 .vidh2 {
-	width: 40%;
+	width: 35%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-right: 5vw;
+	padding-left: 7vw;
 	font-family: 'Esteban', serif;
 	color: #DEAD8A;
 	font-size: 1.8vw;

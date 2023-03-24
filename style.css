@@ -96,7 +96,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding-left: 3vw;
-	width: 45vw;
+	width: 42vw;
 }
 
 .aboutme {
@@ -145,7 +145,6 @@ body {
 	font-family: 'Esteban', serif;
 	font-size: 2vw;
 	color: #CFA180;
-	padding-top: 0.5vh;
 	padding-left: 3vw;
 	width: 97vw;
 	text-align: center;
