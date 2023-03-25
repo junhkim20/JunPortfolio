@@ -49,14 +49,18 @@ body {
 	width: 100%;
 	padding-top: 23vh;
 	justify-content: center;
+	align-items: center;
 	position: relative;
 	flex-wrap: wrap;
 }
+
+
 
 .container1 {
 	display: flex;
 	width: 100%;
 	justify-content: center;
+	align-items: center;
 	position: relative;
 	flex-wrap: wrap;
 }
@@ -67,6 +71,29 @@ body {
 	justify-content: flex-start;
 	position: relative;
 	flex-wrap: wrap;
+	padding-left: 9vw;
+	padding-top: 5vh;
+}
+
+.container3 {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	position: relative;
+	flex-wrap: wrap;
+	padding-left: 8.75vw;
+	padding-top: 5vh;
+}
+
+.container4 {
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
+	padding-top: 8vh;
+	padding-left: 12.5vw;
 }
 
 .break {
@@ -78,6 +105,13 @@ body {
 	width: 43%;
 	justify-content: center;
 	align-items: center;
+}
+
+.textformatamazon{
+	width: 43%;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5vw;
 }
 
 .logoh1 {
@@ -103,14 +137,24 @@ body {
 }
 
 .vidh2 {
-	width: 34%;
+	width: 35%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding-left: 10vw;
 	font-family: 'Esteban', serif;
 	color: #DEAD8A;
 	font-size: 1.8vw;
+}
+
+.fronth2top {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Esteban', serif;
+	color: #DEAD8A;
+	font-size: 1.8vw;
+	padding-right: 5.8vw;
 }
 
 .fronth2 {
@@ -121,3 +165,4 @@ body {
 	font-family: 'Esteban', serif;
 	color: #DEAD8A;
 	font-size: 1.8vw;
+}
