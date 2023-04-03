@@ -54,8 +54,6 @@ body {
 	flex-wrap: wrap;
 }
 
-
-
 .container1 {
 	display: flex;
 	width: 100%;
@@ -165,4 +163,232 @@ body {
 	font-family: 'Esteban', serif;
 	color: #DEAD8A;
 	font-size: 1.8vw;
+}
+
+.container3 img {
+	max-width: 40vw; 
+	max-height: 45vh; 
+	padding-top: 3vh;
+}
+
+.cafespecial {
+	 max-width: 40vw; 
+	 max-height: 45vh; 
+	 padding-top: 3vh; 
+	 padding-left: 2.5vw;
+}
+
+.cafeimg {
+	max-width: 40vw; 
+	max-height: 45vh; 
+	padding-top: 8vh;
+}
+
+.fronttopimg {
+	max-width: 40vw;
+	max-height: 45vh; 
+	padding-left: 2vw; 
+	padding-right: 2vw;
+}
+
+.frontmiddleimg {
+	max-width: 37vw; 
+	max-height: 59.5vh;
+}
+
+.frontmiddleimg1 {
+	max-width: 37vw; 
+	max-height: 45vh; 
+	padding-top: 5vh;
+}
+
+.frontmiddleimg2 {
+	max-width: 37vw; 
+	max-height: 45vh; 
+	padding-top: 5vh; 
+	padding-left: 5.2vw;
+}
+
+.frontbottomimg {
+	max-width: 37vw; 
+	max-height: 45vh; 
+	padding-top: 5vh; 
+	padding-right: 6.5vw
+}
+
+.amazontopimg {
+	max-width: 40vw; 
+	max-height: 75vh; 
+	padding-right: 2vw;
+}
+
+.logomiddleleftimg {
+	align-items: center; 
+	max-width: 35vw; 
+	max-height: 65vh; 
+	padding-right: 3vw; 
+	padding-bottom: 7vh;
+}
+
+.logomiddlerightimg {
+	align-items: center; 
+	max-width: 35vw; 
+	max-height: 65vh; 
+	padding-top: 5vh
+}
+
+@media only screen and (max-width: 480px) {
+	.navigation ul {
+		display: flex;
+		position: relative;
+		justify-content: right;
+		width: calc(77vw - 4vh);
+		gap: 1.5vw;
+		list-style: none;
+		font-family: 'Esteban', serif;
+		font-size: calc(2vh + 0.8vw);
+	}
+
+	.textformat{
+		width: 80%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.cafeimg {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-bottom: 5vh;
+	}
+
+	.logoh1 {
+		font-family: 'Montserrat', sans-serif;
+		color: #AB6E58;
+		font-size: 5vw;
+	}
+
+	.logoh2 {
+		font-family: 'Esteban', serif;
+		color: #DEAD8A;
+		font-size: 4vw;
+	}
+
+
+	.container3 {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-right: 8vw;
+	}
+
+	.container3 img {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-top: 3vh;
+	}
+
+	.cafespecial {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-top: 3vh; 
+		padding-right: 2.5vw;
+	}
+
+	.fronttopimg {
+		max-width: 80vw;
+		max-height: 85vh; 
+		padding-left: 2vw; 
+		padding-right: 2vw;
+	}
+
+	.container2 {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.fronth2top {
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Esteban', serif;
+		color: #DEAD8A;
+		font-size: 4vw;
+	}
+
+	.frontmiddleimg {
+		max-width: 80vw; 
+		max-height: 85vh;
+		padding-right: 10vw;
+	}
+
+	.frontmiddleimg1 {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-right: 10vw;
+	}
+
+	.frontmiddleimg2 {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-right: 15vw;
+	}
+
+	.fronth2 {
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Esteban', serif;
+		color: #DEAD8A;
+		font-size: 4vw;
+	}
+
+	.frontbottomimg {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-right: 10vw
+	}
+
+	.amazontopimg {
+		max-width: 45vw; 
+		max-height: 85vh; 
+		padding-left: 5vw;
+	}
+
+	.vidh2 {
+		width: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Esteban', serif;
+		color: #DEAD8A;
+		font-size: 4vw;
+	}
+
+	.logocase {
+		width: 80%;
+		font-family: 'Esteban', serif;
+		color: #DEAD8A;
+		font-size: 4vw;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+
+	.logomiddleleftimg {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-left: 10vw;
+	}
+
+	.logomiddlerightimg {
+		max-width: 80vw; 
+		max-height: 85vh; 
+		padding-left: 10vw;
+	}
 }
